@@ -1,13 +1,13 @@
 {% set name = "sphinxcontrib-jquery" %}
-{% set version = "3.0.0" %}
-{% set sha256 = "72f201e55d8430bc3aaec7718a6c0d82a7b7c63d750428525e3d1c10d20aa437" %}
+{% set version = "4.0" %}
+{% set sha256 = "3fb0bf3c8906d873a817fe5a6b15b4d3453356c5a86939e0c64c38c0ef08b7a9" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/s/sphinxcontrib-jquery/sphinxcontrib.jquery-3.0.0.tar.gz
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
@@ -22,8 +22,7 @@ requirements:
     - flit-core >=3.7,<4
   run:
     - python >=2.7
-    - setuptools
-    - sphinx
+    - sphinx >=1.8
 
 test:
   imports:
