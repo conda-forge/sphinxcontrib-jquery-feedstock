@@ -1,11 +1,11 @@
-About sphinxcontrib-jquery
-==========================
+About sphinxcontrib-jquery-feedstock
+====================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/sphinxcontrib-jquery-feedstock/blob/main/LICENSE.txt)
 
 Home: https://pypi.org/project/sphinxcontrib-jquery/
 
 Package license: 0BSD AND MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/sphinxcontrib-jquery-feedstock/blob/main/LICENSE.txt)
 
 Summary: A sphinx extension to include jQuery on newer sphinx releases
 
