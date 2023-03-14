@@ -1,6 +1,6 @@
 {% set name = "sphinxcontrib-jquery" %}
-{% set version = "4.0" %}
-{% set sha256 = "3fb0bf3c8906d873a817fe5a6b15b4d3453356c5a86939e0c64c38c0ef08b7a9" %}
+{% set version = "4.1" %}
+{% set sha256 = "1620739f04e36a2c779f1a131a2dfd49b2fd07351bf1968ced074365933abc7a" %}
 
 package:
   name: {{ name|lower }}
@@ -36,7 +36,7 @@ about:
   home: https://pypi.org/project/sphinxcontrib-jquery/
   license: 0BSD AND MIT
   license_file:
-#    - LICENCE
+    - LICENCE
     - vendor-licenses/
   summary: A sphinx extension to include jQuery on newer sphinx releases
   description: |
