@@ -1,6 +1,6 @@
 {% set name = "sphinxcontrib-jquery" %}
-{% set version = "2.0.0" %}
-{% set sha256 = "8fb65f6dba84bf7bcd1aea1f02ab3955ac34611d838bcc95d4983b805b234daa" %}
+{% set version = "3.0.0" %}
+{% set sha256 = "72f201e55d8430bc3aaec7718a6c0d82a7b7c63d750428525e3d1c10d20aa437" %}
 
 package:
   name: {{ name|lower }}
