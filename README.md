@@ -151,4 +151,5 @@ Feedstock Maintainers
 
 * [@AA-Turner](https://github.com/AA-Turner/)
 * [@BSGalvan](https://github.com/BSGalvan/)
+* [@conda-forge/sphinx](https://github.com/conda-forge/sphinx/)
 
